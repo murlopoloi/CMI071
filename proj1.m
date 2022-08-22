@@ -1,6 +1,6 @@
 %funcao racional, TF e intervalos das funções
 r = @(x) 1/((x^2 + 1)*(x^2 + 4));
-R = @(x) -sqrt(2*pi)*(exp(2*x) - 2*exp(x))/12;
+R = @(x) -sqrt(2*pi)*(exp(-abs(2*x)) - 2*exp(-abs(x)))/12;
 xr = -10:0.1:10;
 xR = -5:0.1:5;
 
